@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+    margin: 32px 0;
+    font-family: verdana;
+    color: lightslategray;
+}
+
+.list-students{
+    font: 14px Verdana;
+    color: grey;
+    width: 100%;
+    margin: 10px auto 0 auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.list-students td{
+    padding: 5px 0;
+    border: 1px solid grey;
+}
+
+a{
+    color: dodgerblue;
+    font: 14px Verdana;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.wrapper input, .wrapper label{
+    display: block;
+}
+
+.wrapper label, input[type=submit]{
+    margin-top: 20px;
+    font: 14px verdana;
+}
